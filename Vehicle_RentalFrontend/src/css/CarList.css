@@ -1,0 +1,36 @@
+/* carlist.css */
+.car-card {
+    border: none;
+    transition: transform 0.3s;
+  }
+  
+  .car-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .car-image {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .car-details {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+  }
+  
+  .car-details li {
+    margin-bottom: 5px;
+  }
+  
+  .btn-details {
+    margin-top: 10px;
+  }
+  
+  @media (min-width: 768px) {
+    .row-cols-md-3 .col {
+      flex: 0 0 33.3333%;
+      max-width: 33.3333%;
+    }
+  }
+  
